@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources | McNabb Media Center</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f7fb;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #0d2c54;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        /* Main Container */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        /* Intro Box */
+        .intro-box {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .intro-box h2 {
+            color: #1e3c72;
+            margin-bottom: 10px;
+        }
+
+        /* Resource Grid */
+        .resource-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        /* Resource Cards */
+        .resource-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .resource-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .resource-card img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .resource-card h3 {
+            color: #1e3c72;
+            margin-top: 15px;
+        }
+
+        .resource-card p {
+            font-size: 15px;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0d2c54;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        /* Responsive Navigation */
+        @media screen and (max-width: 768px) {
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Library Resources</h1>
+        <p>McNabb Middle School Media Center</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="programs.html">Library Programs</a>
+        <a href="resources.html">Resources</a>
+        <a href="infolit.html">Information Literacy</a>
+        <a href="bookrecs.html">Book Recommendations</a>
+        <a href="portfolio.html">Professional Portfolio</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <!-- Intro -->
+        <div class="intro-box">
+
+            <h2>Digital Learning Resources</h2>
+
+            <p>
+                Explore some of our favorite digital tools and learning resources designed to support 
+                reading, research, creativity, and academic success.
+            </p>
+
+        </div>
+
+        <!-- Resource Cards -->
+        <div class="resource-grid">
+
+            <!-- KYVL -->
+            <div class="resource-card">
+
+                <a href="https://kyvl.org/"target="_blank">
+                <img src="0008_Kentucky-Virtual-Library.jpg" 
+                     alt="Kentucky Virtual Library" 
+                     title="Kentucky Virtual Library"> 
+                    </a>
+
+                <h3>Kentucky Virtual Library</h3>
+
+                <p>
+                    Access databases, research tools, and academic resources for students and teachers.
+                </p>
+
+            </div>
+
+            <!-- Google Scholar -->
+            <div class="resource-card">
+
+              <a href="https://scholar.google.com/"target="_blank">
+              <img src="Google_scholar.jpg" 
+                     alt="Google Scholar" 
+                     title="Google Scholar">
+                     </a>
+
+                <h3>Google Scholar</h3>
+
+                <p>
+                    A trusted source for scholarly articles, research papers, and academic information.
+                </p>
+
+            </div>
+
+            <!-- Canva -->
+            <div class="resource-card">
+
+              <a href="https://canva.com/"target="_blank">
+              <img src="Canva.png" 
+                     alt="Canva" 
+                     title="Canva">
+                     </a>  
+
+                <h3>Canva</h3>
+
+                <p>
+                    A creative graphic design platform for presentations, posters, and classroom projects.
+                </p>
+
+            </div>
+
+            <!-- Kiddle -->
+            <div class="resource-card">
+
+              <a href="https://www.kiddle.co/"target="_blank"> 
+              <img src="Kids-search-engine-i.png" 
+                     alt="Kiddle Search Engine" 
+                     title="Kiddle">
+                     </a> 
+
+                <h3>Kiddle</h3>
+
+                <p>
+                    A kid-friendly search engine that helps students safely explore information online.
+                </p>
+
+            </div>
+
+            <!-- Epic -->
+            <div class="resource-card">
+
+              <a href="https://www.getepic.com/"target="_blank">   
+              <img src="epic.jpg" 
+                     alt="Epic Reading App" 
+                     title="Epic!">
+                     </a> 
+
+                <h3>Epic!</h3>
+
+                <p>
+                    A student-approved digital reading platform with books, audiobooks, and educational videos.
+                </p>
+
+            </div>
+
+            <!-- Get Bib -->
+            <div class="resource-card">
+
+              <a href="https://www.easybib.com/"target="_blank">   
+              <img src="easybib.png" 
+                     alt="Easy Bib" 
+                     title="Easy Bib">
+                     </a> 
+
+                <h3>Easy Bib</h3>
+
+                <p>
+                    Generate citations for any assignment in thousands of styles, including MLA, APA, Chicago and Harvard. Instantly export bibliographies.
+                </p>
+
+            </div>
+            <!-- LOC -->
+            <div class="resource-card">
+
+              <a href="https://www.loc.gov/"target="_blank">   
+              <img src="LOC.png" 
+                     alt="LOC" 
+                     title="Library of Congress">
+                     </a> 
+
+                <h3>Library of Congress</h3>
+
+                <p>
+                    LOC offers digital resources for children, including "The Source" - an interactive learning center for ages 8-15
+                </p>
+
+        </div>
+        <!-- Scratch -->
+            <div class="resource-card">
+
+              <a href="https://scratch.mit.edu/"target="_blank">   
+              <img src="scratch.png" 
+                     alt="Scratch" 
+                     title="Scratch for Kids">
+                     </a> 
+
+                <h3>Scratch for Kids</h3>
+
+                <p>
+                    Scratch offers a free block-coding site for every kid who needs a place to imagine, build, and share. 
+                </p>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            McNabb Middle School Media Center
+        </p>
+
+        <p>
+            “Today a reader, tomorrow a leader.”
+        </p>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recommendations | McNabb Media Center</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f7fb;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #0d2c54;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        
+
+        /* Main Container */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto;
+        }
+
+        /* Intro Box */
+        .intro-box {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .intro-box h2 {
+            color: #1e3c72;
+        }
+
+        /* Card Grid */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        /* Cards */
+        .card {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+
+        
+
+        .card h3 {
+            color: #1e3c72;
+            border-bottom: 2px solid #dbe6f6;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+
+        .card ul,
+        .card ol {
+            padding-left: 20px;
+        }
+
+        .card li {
+            margin-bottom: 10px;
+        }
+
+        /* Follett Section */
+        .follett-card {
+            text-align: center;
+        }
+
+        .follett-card img {
+            width: 100%;
+            max-width: 250px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        /* Quote Box */
+        .quote-box {
+            background-color: #e8f0fb;
+            padding: 20px;
+            border-left: 5px solid #1e3c72;
+            border-radius: 8px;
+            margin-top: 35px;
+            text-align: center;
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0d2c54;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        /* Responsive Navigation */
+        @media screen and (max-width: 768px) {
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <h1>Book Recommendations</h1>
+
+        <p>
+            McNabb Middle School Media Center
+        </p>
+
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="programs.html">Library Programs</a>
+        <a href="resources.html">Resources</a>
+        <a href="infolit.html">Information Literacy</a>
+        <a href="bookrecs.html">Book Recommendations</a>
+        <a href="portfolio.html">Professional Portfolio</a>
+
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <!-- Intro -->
+        <div class="intro-box">
+
+            <h2>📚 Find Your Next Favorite Book!</h2>
+
+            <p>
+                Welcome to the Middle School Library — your place for books,
+                technology, creativity, and makerspace learning.
+            </p>
+
+            <p>
+                Explore reading lists, staff favorites, genres, and exciting
+                new arrivals to discover your next great read.
+            </p>
+
+        </div>
+
+        <!-- Card Grid -->
+        <div class="card-grid">
+
+            <!-- Follett Destiny -->
+            <div class="card follett-card">
+
+                <a href="https://montgomeryky.follettdestiny.com/portal/portal?appId=destiny-8M2Z-TTC5"
+                   target="_blank">
+
+                    <img src="Follet.jpg"
+                         alt="Follett Destiny"
+                         title="Follett Destiny">
+
+                </a>
+</p>
+                <h3>Follett Destiny</h3>
+
+                <ul>
+                    <li>Destiny is our Integrated Library System (ILS)</li>
+
+                    <li>
+                        McNabb uses Destiny to organize and manage library books and resources.
+                    </li>
+
+                    <li>
+                        Click the image above to explore books currently available in our collection.
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- Navigation Menu -->
+            <div class="card">
+
+                <h3>Explore Reading Lists</h3>
+
+                <ul>
+                    <li>Grade Level Reading Lists</li>
+
+                    <li>Staff Picks & Favorites</li>
+
+                    <li>Themed Lists by Genre</li>
+
+                    <li>New Arrivals</li>
+                </ul>
+
+            </div>
+
+            <!-- Grade Level -->
+            <div class="card">
+
+                <h3>Grade Level Reading Lists</h3>
+
+                  <li> Choose the perfect book for YOU based on your reading level,
+                    interests, and favorite genres </li>
+               
+
+                <li>Reading lists are designed to help every student discover
+                    books they will enjoy and connect with </li>
+
+            </div>
+
+            <!-- Staff Picks -->
+            <div class="card">
+
+                <h3>Staff Picks & Favorites</h3>
+
+                <ul>
+                    <li>
+                        <strong>The Lightning Thief</strong> —
+                        Adventure and mythology
+                    </li>
+
+                    <li>
+                        <strong>Wonder</strong> —
+                        Kindness and empathy
+                    </li>
+
+                    <li>
+                        <strong>Diary of a Wimpy Kid</strong> —
+                        Humor and middle school life
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- Genre Lists -->
+            <div class="card">
+
+                <h3>Themed Lists by Genre</h3>
+
+                <ul>
+                    <li>
+                        Middle School: What's Your Origin Story?
+                    </li>
+
+                    <li>
+                        Choose books based on your “superpowers” (favorite genres).
+                    </li>
+
+                                   </ul>
+
+            </div>
+
+            <!-- New Arrivals -->
+            <div class="card">
+
+                <h3>New Arrivals</h3>
+
+                <ol>
+                    <li>
+                        <strong>The Cartoonists Club</strong>
+                        by Raina Telgemeier
+                    </li>
+
+                    <li>
+                        <strong>Band Nerd</strong>
+                        by Sarah Clawson
+                    </li>
+
+                    <li>
+                        <strong>Very Bad at Math</strong>
+                        by Hope Larson
+                    </li>
+                </ol>
+
+            </div>
+
+        </div>
+
+        <!-- Quote -->
+        
+
+           <center><i>“When someone recommends a book to you, you know two things:
+            that it is a good book and you have a good friend.”
+            <br></i>
+            ~Min Kim</center>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+
+            <p>
+            McNabb Middle School Media Center
+        </p>
+
+        <p>
+            “Today a reader, tomorrow a leader.”
+        </p>
+
+    </footer>
+
+</body>
+</html>

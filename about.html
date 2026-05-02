@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | McNabb Media Center</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f7fb;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #0d2c54;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        /* Main Container */
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        /* Cards */
+        .card {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #1e3c72;
+            border-bottom: 3px solid #dbe6f6;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* About Layout */
+        .about-section {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .about-text {
+            flex: 2;
+        }
+
+        .about-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .about-image img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 12px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #555;
+        }
+
+        /* Links */
+        a {
+            color: #1e3c72;
+        }
+
+        a:hover {
+            color: #2a5298;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0d2c54;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        /* Responsive */
+        @media screen and (max-width: 768px) {
+            .about-section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>About Mrs. Blackburn</h1>
+        <p>McNabb Middle School Media Center</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="programs.html">Library Programs</a>
+        <a href="resources.html">Resources</a>
+        <a href="infolit.html">Information Literacy</a>
+        <a href="bookrecs.html">Book Recommendations</a>
+        <a href="portfolio.html">Professional Portfolio</a>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- About Me Section -->
+        <div class="card">
+            <div class="about-section">
+
+                <!-- Text -->
+                <div class="about-text">
+
+                    <h2>Meet Mrs. Blackburn</h2>
+
+                    <p>
+                        Welcome to the library! Yes, it’s run by me, your friendly middle school librarian 
+                        (professional book matchmaker, bounty hunter of overdue books, part-time tech support, 
+                        and full-time chaos coordinator).
+                    </p>
+
+                    <p>
+                        I spend my days helping students find books they swear they won’t like…until they do, 
+                        troubleshooting mysterious Chromebook issues, and reminding everyone that yes, library books 
+                        do eventually need to be returned.
+                    </p>
+
+                    <p>
+                        I believe the right book can change your whole day, libraries should never be boring, 
+                        80’s music makes everything better, and snacks should absolutely be allowed in the library 
+                        (especially if you’re sharing).
+                    </p>
+
+                    <p>
+                        If you need a book recommendation, research help, or just a place to exist for a minute,
+                        you’ve found your spot.
+                    </p>
+
+                </div>
+
+                <!-- Image -->
+                <div class="about-image">
+
+                    <figure>
+                        <img src="IMG_5731.JPG" alt="Mrs. Blackburn" title="Mrs. Blackburn">
+
+                        <figcaption>
+                            Mrs. Blackburn, M.Ed., LMS, STC
+                        </figcaption>
+                    </figure>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Education & Experience -->
+        <div class="card">
+
+            <h2>Education & Experience</h2>
+
+            <ul>
+                <li>B.A. English Literature with minors in Philosophy and Criminology (Pre-Law)</li>
+
+                <li>M.A. Curriculum & Instruction with an emphasis in Educational Technology</li>
+
+                <li>Rank I Certification in Library Science</li>
+
+                <li>School Technology Coordinator</li>
+
+                <li>Middle School Librarian & STEAM Instructor</li>
+            </ul>
+
+        </div>
+
+        <!-- Philosophy -->
+        <div class="card">
+
+            <h2>Philosophy of Librarianship</h2>
+
+            <p>
+                My philosophy centers on creating a welcoming, student-centered library environment 
+                that encourages curiosity, literacy, creativity, and lifelong learning.
+            </p>
+
+            <p>
+                <a href="https://docs.google.com/document/d/1Yq-sjl_SlaudEPXOr2BKbjgGFUtWij0_iP0L1SOP0i8/edit?usp=sharing" target="_blank">
+                    My Philosophy Statement
+                </a>
+            </p>
+
+        </div>
+
+        <!-- Professional Membership -->
+        <div class="card">
+
+            <h2>Professional Memberships</h2>
+
+            <ul>
+                <li>KLA – Kentucky Library Association</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            McNabb Middle School Media Center
+        </p>
+
+        <p>
+            “Today a reader, tomorrow a leader.”
+        </p>
+
+    </footer>
+
+</body>
+</html>

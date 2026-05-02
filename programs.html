@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Programs | McNabb Media Center</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f7fb;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #0d2c54;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        /* Main Container */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto;
+        }
+
+        /* Layout */
+        .content {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        /* Cards */
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .sidebar {
+            flex: 1;
+            min-width: 280px;
+        }
+
+        .main-content {
+            flex: 2;
+            min-width: 350px;
+        }
+
+        h2 {
+            color: #1e3c72;
+            border-bottom: 3px solid #dbe6f6;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #2a5298;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Image Styling */
+        figure {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        figure img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 12px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #555;
+        }
+
+        /* Button Link */
+        .button-link {
+            display: inline-block;
+            background-color: #1e3c72;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .button-link:hover {
+            background-color: #2a5298;
+        }
+
+        /* Quote Box */
+        .quote {
+            background-color: #e8f0fb;
+            padding: 20px;
+            border-left: 5px solid #1e3c72;
+            margin-top: 25px;
+            border-radius: 8px;
+            font-style: italic;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0d2c54;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        /* Responsive */
+        @media screen and (max-width: 768px) {
+
+            .content {
+                flex-direction: column;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Library Programs</h1>
+        <p>McNabb Middle School Media Center</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="programs.html">Library Programs</a>
+        <a href="resources.html">Resources</a>
+        <a href="infolit.html">Information Literacy</a>
+        <a href="bookrecs.html">Book Recommendations</a>
+        <a href="portfolio.html">Professional Portfolio</a>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <div class="content">
+
+            <!-- Sidebar -->
+            <div class="card sidebar">
+
+                <h2>STREAM</h2>
+
+                <ul>
+                    <li>Science</li>
+                    <li>Technology</li>
+                    <li>Robotics</li>
+                    <li>Engineering</li>
+                    <li>Arts</li>
+                    <li>Mathematics</li>
+                </ul>
+
+                <h3>Current STREAM Project</h3>
+
+                <p>
+                    <strong>Bottle Rockets</strong> powered by a chemical reaction
+                </p>
+
+                <figure>
+                    <img src="Image.jpg" alt="Makerspace Activity" title="Student Makerspace Project">
+
+                    <figcaption>
+                        Makerspace student working on a paper roller coaster build
+                    </figcaption>
+                </figure>
+
+            </div>
+
+            <!-- Main Content -->
+            <div class="card main-content">
+
+                <h2>Makerspace</h2>
+
+                <p>
+                    Our makerspace is a collaborative, hands-on learning environment located within the library where students use tools and creativity to turn ideas into projects. 
+                    It combines STEM/STEAM principles with tinkering and innovation to encourage problem-solving, creativity, and teamwork.
+                </p>
+
+                <p>
+                    Students may explore activities involving robotics, engineering challenges, crafting supplies, electronics, coding, and design thinking.
+                </p>
+
+                <h3>Beanstack Reading Program</h3>
+
+                <p>
+                    Beanstack is a digital reading platform designed to motivate students to read independently through reading challenges, badges, and goal tracking.
+                    It helps build a positive reading culture while encouraging students to develop lifelong reading habits.
+                </p>
+
+                <a href="https://www.beanstack.com" target="_blank" class="button-link">
+                    Visit Beanstack
+                </a>
+
+                <h3>Upcoming Events</h3>
+
+                <ul>
+                    <li>Scholastic Book Fair – 4/29–5/6</li>
+                    <li>KSA Testing Begins – 5/7</li>
+                    <li>All Library Books Due – 5/15</li>
+                    <li>Last Day of School – 5/28</li>
+                </ul>
+
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            McNabb Middle School Media Center
+        </p>
+
+        <p>
+            “Today a reader, tomorrow a leader.”
+        </p>
+
+    </footer>
+
+</body>
+</html>
